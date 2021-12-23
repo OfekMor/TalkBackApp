@@ -1,0 +1,43 @@
+.user-list {
+    width: 25vh;
+    height: 80vh;
+    float: left;
+    background-color: white;
+    color:black;
+    padding: 10px;
+}
+.online-user{
+    cursor: pointer;
+}
+.offline-user{
+    color: grey;
+}
+.circle{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 7px;
+}
+.on{
+    background-color: greenyellow;
+}
+.off{
+    background-color: gray;
+}
+.play{
+    background-color: cornflowerblue;
+}
+
+.user{
+    display: flex;
+}
+.user:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inChat{
+    background-color:gray;
+    padding: 0px 10%;
+    border-radius: 20px;
+}

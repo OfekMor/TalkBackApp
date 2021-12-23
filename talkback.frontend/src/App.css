@@ -1,0 +1,58 @@
+/* Form {
+  width: 100%;
+}
+
+hr.line {
+  border: 1px solid #313131;
+  width: 175px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+
+#app{
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.links{
+  display: flex;
+  align-content: center;
+}
+.foter{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.name{
+  grid-column: 1;
+  grid-row: 1;
+}
+.github, .linkedin{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 0.1vh;
+}
+.github:hover, .linkedin:hover{
+  width: 52px;
+  height: 52px;
+}
+.github{
+  grid-column: 1;
+  grid-row: 2;
+  background-image:url('./assets/images/github.svg');
+}
+.linkedin{
+  grid-column: 2;
+  grid-row: 2;
+  background-image:url('./assets/images/linkedin.svg');
+}
+.ofek{
+  flex-direction: row-reverse;
+}
+.ofekName{
+  text-align: end;
+}

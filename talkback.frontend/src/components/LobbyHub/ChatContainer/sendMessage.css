@@ -1,0 +1,34 @@
+.bar{
+    background-color: #F0F0F0;
+    display: inline;
+    height: 5vh;
+    width: auto;
+}
+.btn {
+    background: #51585C;
+    color: white;
+    height: 3.8vh;
+    width: 3.8vh;
+    margin: 5px 1px;
+    padding: 0px;
+    vertical-align:0px;
+    border-radius: 2vh;
+}
+.send{
+    width: 6vh;
+}
+.message-input{
+    background-color: white;
+    border-radius: 50px;
+    height: 4vh;
+    margin: 0vh 0vh 0vh -5vh;
+}
+.bigBar{
+    width: 100vh;
+}
+.smallBar{
+    width: 28vh;
+}
+.message-input:focus{
+    outline: none;
+}

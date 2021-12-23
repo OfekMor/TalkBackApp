@@ -1,0 +1,4 @@
+.chatContainer{
+    display: grid;
+    grid-template-rows: 10fr 1fr;
+}
